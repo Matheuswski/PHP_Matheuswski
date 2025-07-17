@@ -8,7 +8,7 @@
 <body>
     <a href="/inicio.php">Inicio</a>
     <a href="/tutoriais.php">Tutoriais</a>
-    <a href="/referencias.php">IReferências</a>
+    <a href="/referencias.php">Referências</a>
     <a href="/exemplos.php">exemplo</a>
     <a href="/contato.php">Contato</a>
 </body>

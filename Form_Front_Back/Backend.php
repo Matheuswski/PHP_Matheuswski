@@ -6,12 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        $name = "Xenia";
-        #$name = NULL;
-        if (isset($name)){
-            print "Essa esta sendo printada porque a variavel name possui um valor.\n";
-        }
-    ?>
+<?php
+    if (isset($_GET['id_']) && isset($_GET['Idade']));
+    
+
+        
 </body>
 </html>
