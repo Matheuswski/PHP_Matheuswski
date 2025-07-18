@@ -36,7 +36,7 @@
                         <label for="nomeEmpresa">Nome Empresarial:</label>
                     </td>
                     <td>
-                        <input type="text" required onkeypress="mascara(this, mesclarApenasLetras2)" maxlength="14">
+                        <input type="text" name="nomeEmpresa" required onkeypress="mascara(this, mesclarApenasLetras2)" maxlength="14">
                     </td>
                 </tr>
 
@@ -46,7 +46,7 @@
                         <label for="nomeFantasia">Nome Fantasia:</label>
                     </td>
                     <td>
-                        <input type="text" required onkeypress="mascara(this, mesclarApenasLetras)" maxlength="14">
+                        <input type="text" name="nomeFantasia" required onkeypress="mascara(this, mesclarApenasLetras)" maxlength="14">
                     </td>
                 </tr>
 
@@ -56,7 +56,7 @@
                         <label for="cnpj">Cnpj da Empresa:</label>
                     </td>
                     <td>
-                        <input type="text" required onkeypress="mascara(this, cnpjEmpre)" maxlength="14">
+                        <input type="text" name="cnpj" required onkeypress="mascara(this, cnpjEmpre)" maxlength="14">
                     </td>
 
                 
@@ -66,7 +66,7 @@
                         <label for="telefone">Telefone Empresarial:</label>
                     </td>
                     <td>
-                        <input type="text" onkeypress="mascara(this, Telefone)" maxlength="12">
+                        <input type="text" name="telefone" onkeypress="mascara(this, Telefone)" maxlength="12">
                     </td>
                 </tr>
 
@@ -76,7 +76,7 @@
                         <label for="endereco">Endereço:</label>
                     </td>
                     <td>
-                        <input class="tamanho" type="text" name="endereco" id="" required>
+                        <input class="tamanho" name="endereco" type="text" name="endereco" id="" required>
                     </td>
                 </tr>
 
@@ -86,7 +86,7 @@
                         <label for="bairro">Bairro:</label>
                     </td>
                     <td>
-                        <input class="tamanho" type="text" name="bairro" id="" required>
+                        <input class="tamanho" name="bairro" type="text" name="bairro" id="" required>
                     </td>
                 </tr>
 
@@ -96,7 +96,7 @@
                         <label for="cidade">Cidade:</label>
                     </td>
                     <td>
-                        <input class="tamanho2" type="text" name="cidade" id="" required>
+                        <input class="tamanho2" name="cidade" type="text" name="cidade" id="" required>
                     </td>
                 </tr>
 
@@ -106,7 +106,7 @@
                         <label for="cep">Cep:</label>
                     </td>
                     <td>
-                        <input type="text" onkeypress="mascara(this,cep)" maxlength="10">
+                        <input type="text" name="cep" onkeypress="mascara(this,cep)" maxlength="10">
                     
 
                     <td align="right">UF:
