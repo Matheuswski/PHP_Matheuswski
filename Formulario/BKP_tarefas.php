@@ -34,9 +34,9 @@ if(isset($_SESSION['lista_tarefas'])) {
     <tr>
         <th>Tarefas</th>
     </tr>
-    <?php foreach ($lista_tarefas as $Tarefa) : ?>
+    <?php foreach ($lista_tarefas as $tarefa) : ?>
         <tr>
-            <td><?php echo $Tarefa; ?> </td>
+            <td><?php echo $tarefa; ?> </td>
         </tr>
     <?php endforeach; ?>
 </table>
