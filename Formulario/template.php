@@ -46,7 +46,7 @@
             <input type="submit" value="Cadastrar"/>
     
     </form>
-    <table>
+    <table border="1">
         <tr>
             <th>Tarefas</th>
             <th>Descricao</th>
